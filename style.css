@@ -1,0 +1,19 @@
+body {
+    /* background properties */
+    background-color: bisque
+}
+
+p {
+    font-family: sans-serif;
+    color: green;
+    font-size: 12px;
+    /* background properties */
+    background-color: aquamarine
+}
+
+p>span{
+    color: red;
+
+
+ 
+}
