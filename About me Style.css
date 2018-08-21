@@ -1,6 +1,6 @@
 body {
     /* background properties */
-    background-color: rgb(100, 100, 102)
+    background-color: rgb(10, 10, 10)
 }
 
 h1 {
@@ -9,15 +9,49 @@ h1 {
 
 h1 {
     font-family: sans-serif;
-    color: blue;
-    font-size: 50px;
+    color: white;
+    font-size: 45px;
+    text-decoration: underline;
 }
+
+strong { font-family: sans-serif;
+        color: white;
+        font-size: 25px;
+    }
+
+
+
+h2{
+    front-family: sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+h3{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20;
+}
+
+h4{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20;
+}
+
+h5{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20;
+}
+
 
 img {
     width: 25%;
     border: 2px solid #ffff;
     padding: 5px;
     text-align: center
+    
 }
 
 img{
@@ -25,16 +59,33 @@ img{
     display: block
 }    
 
-
+body {
+    line-height: 2;
+    margin: 30px;
+    border: 5px solid blue;
+    border-radius: 5px;
+    padding: 30px;
+}
 
 
 p {
     font-family: sans-serif;
-    color: rgb(2, 19, 54);
-    font-size: 30px;
-
-
-
-   
+    color: white;
+    font-size: 20px;
+    
 }
 
+
+
+img {
+    /*float: right;*/
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center
+
+}
+
+img[alt] {
+    float: right;
+}
