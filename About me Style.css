@@ -3,7 +3,36 @@ body {
     background-color: rgb(10, 10, 10)
 }
 
-h1 {
+    #button {
+        width: 10em;
+        border: 2px solid blue;
+        border-radius: 10px;
+        font-size: 15px;
+
+    }
+
+    .Social {
+        width: 10em;
+        border: 2px solid blue;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+
+    a{
+        display: block;
+        width: 100%;
+        line-height: 2em;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    a:hover {
+        color: red;
+        background: #eff;
+    }
+    
+h1{
     text-align: center;
 }
 
@@ -16,30 +45,30 @@ h1 {
 
 strong { font-family: sans-serif;
         color: white;
-        font-size: 25px;
+        font-size: 20px;
     }
 
 
 
-h2{
+h2 {
     front-family: sans-serif;
     color: white;
     font-size: 30px;
 }
 
-h3{
+h3 {
     font-family: sans-serif;
     color: white;
     font-size: 20;
 }
 
-h4{
+h4 {
     font-family: sans-serif;
     color: white;
     font-size: 20;
 }
 
-h5{
+h5 {
     font-family: sans-serif;
     color: white;
     font-size: 20;
@@ -71,7 +100,7 @@ body {
 p {
     font-family: sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 
@@ -88,4 +117,16 @@ img {
 
 img[alt] {
     float: right;
+}
+
+.Facebook {
+    color:blue;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+.LinkedIn {
+    color:blue;
+    text-decoration:underline;
+    cursor:pointer;
 }
