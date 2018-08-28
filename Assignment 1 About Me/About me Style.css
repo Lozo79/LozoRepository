@@ -1,0 +1,132 @@
+body {
+    /* background properties */
+    background-color: rgb(10, 10, 10)
+}
+
+    #button {
+        width: 10em;
+        border: 2px solid blue;
+        border-radius: 10px;
+        font-size: 15px;
+
+    }
+
+    .Social {
+        width: 10em;
+        border: 2px solid blue;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+
+    a{
+        display: block;
+        width: 100%;
+        line-height: 2em;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    a:hover {
+        color: red;
+        background: #eff;
+    }
+    
+h1{
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+strong { font-family: sans-serif;
+        color: white;
+        font-size: 20px;
+    }
+
+
+
+h2 {
+    front-family: sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20;
+}
+
+h4 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20;
+}
+
+h5 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20;
+}
+
+
+img {
+    width: 25%;
+    border: 2px solid #ffff;
+    padding: 5px;
+    text-align: center
+    
+}
+
+img{
+    margin: 1px auto;
+    display: block
+}    
+
+body {
+    line-height: 2;
+    margin: 30px;
+    border: 5px solid blue;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+
+p {
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    
+}
+
+
+
+img {
+    /*float: right;*/
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center
+
+}
+
+img[alt] {
+    float: right;
+}
+
+.Facebook {
+    color:blue;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+.LinkedIn {
+    color:blue;
+    text-decoration:underline;
+    cursor:pointer;
+}
