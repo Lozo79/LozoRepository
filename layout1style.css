@@ -1,0 +1,18 @@
+header, footer, section, aside {
+    background: gray;
+    border: 1px solid black;
+}
+	section, aside{ 
+        height: 500px;
+        flex: 1s;
+    }
+    section {
+        margin: 0 20px 0 0;
+        flex: 2;
+        background-image:url('https://www.arborday.org/images/hero/medium/hero-green-leaves-in-sunlight.jpg');
+        background-size:cover;
+    }
+    section:hover {
+        background:orange;
+
+    }
