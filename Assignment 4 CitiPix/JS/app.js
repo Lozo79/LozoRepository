@@ -16,7 +16,7 @@
       }
 
 //For San Francisco change the class to sf (San Francisco/SF/SFO/bay area/niners suck)
-      if (city == 'san francisco' || city == 'sf' || city == 'sfo' || city == 'bay area' || city == 'niners suck') {
+      if (city == 'san francisco' || city == 'sf' || city == 'sfo' || city == 'bay area' || city == 'niners suck' || city == 'giants sucks') {
         $('body').attr('class','sf');
       }
 
